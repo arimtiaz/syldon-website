@@ -2,7 +2,9 @@ import React from 'react';
 import Hero from './Hero';
 import Nav from '../Nav/Nav';
 import ContactNav from '../Nav/ContactNav';
-import Stats from './Stats';
+import Facts from './Facts';
+import AboutUs from './AboutUs';
+
 
 const Home = () => {
     return (
@@ -10,7 +12,8 @@ const Home = () => {
             <ContactNav></ContactNav>
             <Nav></Nav>
             <Hero></Hero>
-
+            <Facts></Facts>
+            <AboutUs></AboutUs>
         </div>
     );
 };
