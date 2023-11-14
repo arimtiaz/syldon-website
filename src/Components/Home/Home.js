@@ -6,6 +6,8 @@ import Facts from './Facts';
 import AboutUs from './AboutUs';
 import Feature from './Feature';
 import Services from './Services';
+import FAQ from './FAQ';
+import Footer from './Footer';
 
 
 const Home = () => {
@@ -20,6 +22,10 @@ const Home = () => {
             <Feature></Feature>
             </div>
            <Services></Services>
+           <div className='bg-blue-50'>
+           <FAQ></FAQ>
+           </div>
+            <Footer></Footer>
         </div>
     );
 };
