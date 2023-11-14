@@ -5,6 +5,7 @@ import ContactNav from '../Nav/ContactNav';
 import Facts from './Facts';
 import AboutUs from './AboutUs';
 import Feature from './Feature';
+import Services from './Services';
 
 
 const Home = () => {
@@ -15,7 +16,10 @@ const Home = () => {
             <Hero></Hero>
             <Facts></Facts>
             <AboutUs></AboutUs>
+            <div className='bg-blue-700'>
             <Feature></Feature>
+            </div>
+           <Services></Services>
         </div>
     );
 };
