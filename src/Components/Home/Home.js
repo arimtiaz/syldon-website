@@ -4,6 +4,7 @@ import Nav from '../Nav/Nav';
 import ContactNav from '../Nav/ContactNav';
 import Facts from './Facts';
 import AboutUs from './AboutUs';
+import Feature from './Feature';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Hero></Hero>
             <Facts></Facts>
             <AboutUs></AboutUs>
+            <Feature></Feature>
         </div>
     );
 };

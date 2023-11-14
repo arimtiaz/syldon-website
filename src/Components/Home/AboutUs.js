@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg from "../../images/Hero_Image.png";
+import AboutUsImg from "../../images/About_Us.png";
 
 const AboutUs = () => {
   return (
@@ -8,7 +8,7 @@ const AboutUs = () => {
       <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-16 md:py-24 lg:py-32 text-left">
         {/* <!-- Component --> */}
         <div class="grid grid-cols-1 items-start justify-items-start gap-8 sm:gap-20 lg:grid-cols-2">
-          <img src={HeroImg} alt="" class="inline-block h-full w-full" />
+          <img src={AboutUsImg} alt="" class="inline-block h-full w-full" />
           {/* <!-- Hero Content --> */}
           <div class="flex flex-col">
             {/* <!-- Hero Title --> */}
