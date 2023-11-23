@@ -4,5 +4,35 @@
         "name" : "Abdur Razzaq",
         "department" : "Investor",
         "img" : "./images/DoctorTanvir.jpg"
+      },
+    {
+        "id": 2,
+        "name" : "Abdur Razzaq",
+        "department" : "Investor",
+        "img" : "./images/DoctorTanvir.jpg"
+      },
+    {
+        "id": 3,
+        "name" : "Abdur Razzaq",
+        "department" : "Investor",
+        "img" : "./images/DoctorTanvir.jpg"
+      },
+    {
+        "id": 4,
+        "name" : "Abdur Razzaq",
+        "department" : "Investor",
+        "img" : "./images/DoctorTanvir.jpg"
+      },
+    {
+        "id": 5,
+        "name" : "Abdur Razzaq",
+        "department" : "Investor",
+        "img" : "./images/DoctorTanvir.jpg"
+      },
+    {
+        "id": 6,
+        "name" : "Abdur Razzaq",
+        "department" : "Investor",
+        "img" : "./images/DoctorTanvir.jpg"
       }
 ]

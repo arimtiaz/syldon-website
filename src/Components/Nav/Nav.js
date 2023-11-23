@@ -1,5 +1,6 @@
 import React from "react";
-import './Nav.css'
+import "./Nav.css";
+import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="navbar bg-base-100 mx-auto w-full max-w-6xl">
@@ -46,28 +47,32 @@ const Nav = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="flex gap-4 font-regular">
-        <li>
+          <Link to='/home'>
+            <li>
               <a>Home</a>
             </li>
-            <li>
-              <a>About Us</a>
-            </li>
-            <li>
-              <a>Doctors</a>
-            </li>
-            <li>
-              <a>Board</a>
-            </li>
-            <li>
-              <a>Investors & Shareholder</a>
-            </li>
-            <li>
-              <a>Contact Us</a>
-            </li>
+          </Link>
+          <Link to='/aboutus'>
+          </Link>
+          <Link to='/doctors'>
+          <li>
+            <a>Doctors</a>
+          </li>
+          </Link>
+          <Link to='/investors'>
+          <li>
+            <a>Investors & Shareholder</a>
+          </li>
+          </Link>
+          <li>
+            <a>Contact Us</a>
+          </li>
         </ul>
       </div>
       <div className="navbar-end ">
-        <a className="btn bg-blue-600 hover:bg-blue-700 text-white hover:bg-blue-700ß">Call - 01946348006</a>
+        <a className="btn bg-blue-600 hover:bg-blue-700 text-white hover:bg-blue-700ß">
+          Call - 01946348006
+        </a>
       </div>
     </div>
   );
