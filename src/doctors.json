@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "name" : "Dr. Syed Tanvir",
+        "department" : "Pediatric",
+        "img" : "./images/DoctorTanvir.jpg"
+      }
+]

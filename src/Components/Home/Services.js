@@ -21,7 +21,7 @@ const Services = () => {
                     alt=""
                     class="mb-4 inline-block h-10 w-10"
                   />
-                  <p class="mb-4 font-semibold">Support</p>
+                  <p class="mb-4 font-semibold">Urology</p>
                   <p class="text-sm text-[#636262]">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                     aliquam, purus sit.
@@ -33,7 +33,7 @@ const Services = () => {
                     alt=""
                     class="mb-4 inline-block h-10 w-10"
                   />
-                  <p class="mb-4 font-semibold">Organise</p>
+                  <p class="mb-4 font-semibold">Neurology</p>
                   <p class="text-sm text-[#636262]">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                     aliquam, purus sit.
@@ -45,7 +45,7 @@ const Services = () => {
                     alt=""
                     class="mb-4 inline-block h-10 w-10"
                   />
-                  <p class="mb-4 font-semibold">Flexibility</p>
+                  <p class="mb-4 font-semibold">Cardiology</p>
                   <p class="text-sm text-[#636262]">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                     aliquam, purus sit.
@@ -57,7 +57,7 @@ const Services = () => {
                     alt=""
                     class="mb-4 inline-block h-10 w-10"
                   />
-                  <p class="mb-4 font-semibold">Speed</p>
+                  <p class="mb-4 font-semibold">Gynaecology</p>
                   <p class="text-sm text-[#636262]">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                     aliquam, purus sit.

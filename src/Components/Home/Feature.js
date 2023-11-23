@@ -29,7 +29,7 @@ const Feature = () => {
             {/* <!-- Features Item --> */}
             <div class=" grid gap-6 rounded-md border border-solid border-blue-200 bg-gray-50 p-8 md:p-10">
               <img src={illustration1} className="w-24 mx-auto" alt="" />
-              <h3 class="text-xl font-semibold">Support</h3>
+              <h3 class="text-xl font-semibold">Environment</h3>
               <p class="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
@@ -38,7 +38,7 @@ const Feature = () => {
             {/*  */}
             <div class=" grid gap-6 rounded-md border border-solid border-blue-200 bg-gray-50 p-8 md:p-10">
               <img src={illustration2} className="w-24 mx-auto" alt="" />
-              <h3 class="text-xl font-semibold">Support</h3>
+              <h3 class="text-xl font-semibold">Infertility Center</h3>
               <p class="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
@@ -47,7 +47,7 @@ const Feature = () => {
             {/*  */}
             <div class=" grid gap-6 rounded-md border border-solid border-blue-200 bg-gray-50 p-8 md:p-10">
               <img src={illustration3} className="w-24 mx-auto" alt="" />
-              <h3 class="text-xl font-semibold">Support</h3>
+              <h3 class="text-xl font-semibold">Advanced Departments</h3>
               <p class="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
@@ -56,7 +56,7 @@ const Feature = () => {
             {/*  */}
             <div class=" grid gap-6 rounded-md border border-solid border-blue-200 bg-gray-50 p-8 md:p-10">
               <img src={illustration4} className="w-24 mx-auto" alt="" />
-              <h3 class="text-xl font-semibold">Support</h3>
+              <h3 class="text-xl font-semibold">Institute Trained Staffs</h3>
               <p class="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
@@ -65,7 +65,7 @@ const Feature = () => {
             {/*  */}
             <div class=" grid gap-6 rounded-md border border-solid border-blue-200 bg-gray-50 p-8 md:p-10">
               <img src={illustration5} className="w-24 mx-auto" alt="" />
-              <h3 class="text-xl font-semibold">Support</h3>
+              <h3 class="text-xl font-semibold">High-tech ICU, NICU, PICU</h3>
               <p class="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
@@ -74,7 +74,7 @@ const Feature = () => {
             {/*  */}
             <div class=" grid gap-6 rounded-md border border-solid border-blue-200 bg-gray-50 p-8 md:p-10">
               <img src={illustration6} className="w-24 mx-auto" alt="" />
-              <h3 class="text-xl font-semibold">Support</h3>
+              <h3 class="text-xl font-semibold">Specialized Cathlab</h3>
               <p class="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.

@@ -59,6 +59,9 @@ const Nav = () => {
               <a>Board</a>
             </li>
             <li>
+              <a>Investors & Shareholder</a>
+            </li>
+            <li>
               <a>Contact Us</a>
             </li>
         </ul>
