@@ -13,14 +13,10 @@ const AboutUs = () => {
           <div class="flex flex-col">
             {/* <!-- Hero Title --> */}
             <h1 class="mb-4 text-2xl font-bold md:text-4xl">
-              Our Commitment to Exceptional Healthcare
+            Empowering Health, Enriching Lives: Discover Syldon Hospital
             </h1>
             <p class="mb-6 max-w-lg text-base text-gray-600 md:mb-10 lg:mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit amet luctus venenatis, lectus consectetur
-              adipiscing elit ut aliquam, purus sit amet luctus venenatis,
-              lectus consectetur adipiscing elit ut aliquam, purus sit amet
-              luctus venenatis, lectus
+            Welcome to Syldon Hospital, the largest private healthcare provider in Sylhet. At Syldon, we are driven by a passion for excellence in healthcare, offering a combination of world-class medical expertise and compassionate patient care.
             </p>
             <div class="mt-2 flex flex-row items-center text-left text-gray-600">
               <div className="bg-teal-600 rounded-full p-2">
@@ -43,8 +39,7 @@ const AboutUs = () => {
               </div>
               <p className="ml-2 text-xl text-gray-900 font-semibold">Our Mission</p>
             </div>
-            <p className="mt-2 mb-4 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit amet luctus venenatis purus sit amet luctus venenatis amet luctus venenatis purus amet luctus venenatis purus</p>
+            <p className="mt-2 mb-4 text-gray-600">Dedicated to enhancing lives through exceptional healthcare, our mission is to provide accessible, high-quality medical services that empower our community to lead healthier and happier lives. We prioritize patient well-being, delivering personalized care with a commitment to excellence.</p>
             <div class="mt-2 flex flex-row items-center text-left text-gray-600">
               <div className="bg-teal-600 rounded-full p-2">
               <svg
@@ -66,8 +61,7 @@ const AboutUs = () => {
               </div>
               <p className="ml-2 text-xl text-gray-900 font-semibold">Our Vision</p>
             </div>
-            <p className="mt-2 mb-4 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit amet luctus venenatis purus sit amet luctus venenatis amet luctus venenatis purus amet luctus venenatis purus</p>
+            <p className="mt-2 mb-4 text-gray-600">Syldon Hospital envisions a future where healthcare is not just a service but a holistic experience. We aspire to be the forefront of innovation, setting new standards for patient-centric care, cutting-edge technology, and global medical collaboration. Our vision is to create a healthier, more vibrant community by leading the way in transformative healthcare solutions.</p>
           </div>
           {/* <!-- Hero Image --> */}
         </div>

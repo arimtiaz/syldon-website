@@ -1,12 +1,12 @@
 import { faKitMedical } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import illustration1 from '../../images/illustrations1.png'
-import illustration2 from '../../images/illustrations2.png'
-import illustration3 from '../../images/illustrations3.png'
-import illustration4 from '../../images/illustrations4.png'
-import illustration5 from '../../images/illustrations5.png'
-import illustration6 from '../../images/illustrations6.png'
+import illustration1 from "../../images/illustrations1.png";
+import illustration2 from "../../images/illustrations2.png";
+import illustration3 from "../../images/illustrations3.png";
+import illustration4 from "../../images/illustrations4.png";
+import illustration5 from "../../images/illustrations5.png";
+import illustration6 from "../../images/illustrations6.png";
 
 const Feature = () => {
   return (
@@ -17,11 +17,13 @@ const Feature = () => {
           {/* <!-- Title --> */}
           <div class="flex flex-col items-center text-center">
             <h2 class="text-2xl font-bold md:text-4xl text-white">
-              Make every step user-centric
+              Innovative Healthcare Solutions: Explore Our Distinctive Services
+              for Your Well-being.
             </h2>
-            <p class="mb-8 mt-4 max-w-xl text-base text-gray-200 md:mb-12 md:text-lg lg:mb-16">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
-              purus sit amet luctus magna fringilla urna
+            <p class="mb-8 mt-4 max-w-2xl text-base text-gray-200 md:mb-12 md:text-lg lg:mb-16">
+              Experience a new frontier in healthcare excellence as we showcase
+              unparalleled services at Syldon Hospital, uniquely designed to
+              prioritize your well-being.
             </p>
           </div>
           {/* <!-- Features Content --> */}
@@ -31,8 +33,7 @@ const Feature = () => {
               <img src={illustration1} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">Environment</h3>
               <p class="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              At Syldon Hospital, we prioritize your well-being in an exceptional care environment, where your health takes center stage
               </p>
             </div>
             {/*  */}
@@ -40,8 +41,7 @@ const Feature = () => {
               <img src={illustration2} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">Infertility Center</h3>
               <p class="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              Introducing Sylhet's First Infertility Center: Pioneering Reproductive Solutions with Compassion and Expertise.
               </p>
             </div>
             {/*  */}
@@ -49,8 +49,7 @@ const Feature = () => {
               <img src={illustration3} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">Advanced Departments</h3>
               <p class="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              Elevating Healthcare: Unveiling Our Advanced Departments for Cutting-Edge Medical Solutions and Specialized Care.
               </p>
             </div>
             {/*  */}
@@ -58,8 +57,7 @@ const Feature = () => {
               <img src={illustration4} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">Institute Trained Staffs</h3>
               <p class="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              Institute-Trained Expertise: Our Staff Embodies Excellence in Delivering Specialized Care and Compassionate Service.
               </p>
             </div>
             {/*  */}
@@ -67,8 +65,7 @@ const Feature = () => {
               <img src={illustration5} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">High-tech ICU, NICU, PICU</h3>
               <p class="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              Precision Healthcare at Its Pinnacle: Explore Our High-Tech ICU, NICU, and PICU for Specialized and Compassionate Critical Care.
               </p>
             </div>
             {/*  */}
@@ -76,8 +73,7 @@ const Feature = () => {
               <img src={illustration6} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">Specialized Cathlab</h3>
               <p class="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              Revolutionizing Cardiac Care: Experience Precision in Our Specialized Cath Lab for Advanced Diagnosis and Intervention.
               </p>
             </div>
             {/*  */}

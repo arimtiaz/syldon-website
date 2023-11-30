@@ -13,8 +13,8 @@ const Hero = () => {
 		      {/* <!-- Hero Content --> */}
 		      <div class="flex flex-col">
 		        {/* <!-- Hero Title --> */}
-		        <h1 class="mb-4 text-4xl font-bold md:text-6xl"> The Website You Want Without The Dev Time. </h1>
-		        <p class="mb-6 max-w-lg text-base text-[#636262] md:mb-10 lg:mb-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus </p>
+		        <h1 class="mb-4 text-4xl font-bold md:text-6xl"> Welcome To Syldon Hospital</h1>
+		        <p class="mb-6 max-w-lg text-base text-[#636262] md:mb-10 lg:mb-6"> Leaders in care, Syldon Hospital is Sylhet's largest private hospital. Our foreign consultants and modern facilities redefine healthcare, ensuring your well-being is at the heart of all we do</p>
 		        {/* <!-- Hero Button --> */}
 		        <div class="flex items-center">
                     <a href="" className='mr-5 flex items-center bg-[#276ef1] px-8 py-4 font-semibold text-white md:mr-6 lg:mr-8 rounded-md'><p class="font-bold">Let's Talk</p></a>

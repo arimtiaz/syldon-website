@@ -3,36 +3,36 @@
         "id": 1,
         "name" : "Dr. Syed Tanvir",
         "department" : "Pediatric",
-        "img" : "./images/DoctorTanvir.jpg"
+        "img" : "./investor-img/DoctorTanvir.jpg"
       },
       {
           "id": 2,
           "name" : "Dr. Syed Tanvir",
           "department" : "Investor",
-          "img" : "./images/DoctorTanvir.jpg"
+          "img" : "./investor-img/DoctorTanvir.jpg"
         },
       {
           "id": 3,
           "name" : "Dr. Syed Tanvir",
           "department" : "Investor",
-          "img" : "./images/DoctorTanvir.jpg"
+          "img" : "./investor-img/DoctorTanvir.jpg"
         },
       {
           "id": 4,
           "name" : "Dr. Syed Tanvir",
           "department" : "Investor",
-          "img" : "./images/DoctorTanvir.jpg"
+          "img" : "./investor-img/DoctorTanvir.jpg"
         },
       {
           "id": 5,
           "name" : "Dr. Syed Tanvir",
           "department" : "Investor",
-          "img" : "./images/DoctorTanvir.jpg"
+          "img" : "./investor-img/DoctorTanvir.jpg"
         },
       {
           "id": 6,
           "name" : "Dr. Syed Tanvir",
           "department" : "Investor",
-          "img" : "./images/DoctorTanvir.jpg"
+          "img" : "./investor-img/DoctorTanvir.jpg"
         }
 ]

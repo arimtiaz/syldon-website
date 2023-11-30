@@ -43,7 +43,7 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Syldon Hospital</a>
+        <Link to='/home'><a className="btn btn-ghost normal-case text-xl">Syldon Hospital</a></Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="flex gap-4 font-regular">

@@ -8,6 +8,10 @@ import Feature from './Feature';
 import Services from './Services';
 import FAQ from './FAQ';
 import Footer from './Footer';
+import Diagonostic from './Diagonostic';
+import Pharmacy from './Pharmacy';
+import Entertainment from './Entertainment';
+import Construction from './Construction';
 
 
 const Home = () => {
@@ -22,6 +26,10 @@ const Home = () => {
             <Feature></Feature>
             </div>
            <Services></Services>
+           <Diagonostic></Diagonostic>
+           <Pharmacy></Pharmacy>
+           <Entertainment></Entertainment>
+           <Construction></Construction>
            <div className='bg-blue-50'>
            <FAQ></FAQ>
            </div>
