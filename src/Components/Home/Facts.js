@@ -11,23 +11,23 @@ const Facts = () => {
           <div class="grid h-full w-full grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-4 md:gap-0">
             {/* <!-- Fact Item --> */}
             <div class="flex flex-col items-center justify-center lg:border-r lg:border-solid lg:border-r-[#c3c0c04d]">
-              <h4 class="mb-4 text-2xl font-bold md:text-3xl">200+</h4>
-              <p class="text-sm">Blocks</p>
+              <h4 class="mb-4 text-2xl font-bold md:text-3xl">300</h4>
+              <p class="text-sm">Beds</p>
             </div>
             {/* <!-- Fact Item --> */}
             <div class="flex flex-col items-center justify-center lg:border-r lg:border-solid lg:border-r-[#c3c0c04d]">
-              <h4 class="mb-4 text-2xl font-bold md:text-3xl">45</h4>
-              <p class="text-sm">Templates</p>
+              <h4 class="mb-4 text-2xl font-bold md:text-3xl">60</h4>
+              <p class="text-sm">Doctors</p>
             </div>
             {/* <!-- Fact Item --> */}
             <div class="flex flex-col items-center justify-center lg:border-r lg:border-solid lg:border-r-[#c3c0c04d]">
-              <h4 class="mb-4 text-2xl font-bold md:text-3xl">1500+</h4>
-              <p class="text-sm">Customers</p>
+              <h4 class="mb-4 text-2xl font-bold md:text-3xl">38000sft</h4>
+              <p class="text-sm">Per FLoor</p>
             </div>
             {/* <!-- Fact Item --> */}
             <div class="flex flex-col items-center justify-center lg:border-r lg:border-solid lg:border-r-[#c3c0c04d]">
-              <h4 class="mb-4 text-2xl font-bold md:text-3xl">890</h4>
-              <p class="text-sm">Support Tickets</p>
+              <h4 class="mb-4 text-2xl font-bold md:text-3xl">10+</h4>
+              <p class="text-sm">Emergency Units</p>
             </div>
           </div>
         </div>
