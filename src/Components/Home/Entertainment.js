@@ -22,6 +22,68 @@ const Entertainment = () => {
               </p>
               <div class="mb-12 mt-12 h-0 w-40 border [border-top-style:solid]"></div>
               <ul class="flex flex-col">
+
+                <li class="mb-2 flex items-start">
+                  <img
+                    src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg"
+                    alt=""
+                    class="mr-2 inline-block h-4 w-4"
+                  />
+                  <p class="text-gray-700 max-[479px]:text-sm">
+                    <span className="font-bold">Environmental care:</span>  Modernised electronically cleaning service
+Landscape facilities for patient mental health care 
+                  </p>
+                </li>
+                <li class="mb-2 flex items-start">
+                  <img
+                    src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg"
+                    alt=""
+                    class="mr-2 inline-block h-4 w-4"
+                  />
+                  <p class="text-gray-700 max-[479px]:text-sm">
+                    <span className="font-bold">Electronic Accounts:</span> With central control of admin.
+                  </p>
+                </li>
+                <li class="mb-2 flex items-start">
+                  <img
+                    src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg"
+                    alt=""
+                    class="mr-2 inline-block h-4 w-4"
+                  />
+                  <p class="text-gray-700 max-[479px]:text-sm">
+                    <span className="font-bold">Electronic inpatient care records and works:</span>  Nil fine system for patients , plan to make paperless Hospital
+                  </p>
+                </li>
+                <li class="mb-2 flex items-start">
+                  <img
+                    src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg"
+                    alt=""
+                    class="mr-2 inline-block h-4 w-4"
+                  />
+                  <p class="text-gray-700 max-[479px]:text-sm">
+                    <span className="font-bold">Discharge Lounge:</span>  A organised safe discharge patient  plan to their relatives.
+                  </p>
+                </li>
+                <li class="mb-2 flex items-start">
+                  <img
+                    src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg"
+                    alt=""
+                    class="mr-2 inline-block h-4 w-4"
+                  />
+                  <p class="text-gray-700 max-[479px]:text-sm">
+                    <span className="font-bold">CQC.  Commission  for quality care:</span>  A commission  for quality services will be monitored regularly.
+                  </p>
+                </li>
+                <li class="mb-2 flex items-start">
+                  <img
+                    src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg"
+                    alt=""
+                    class="mr-2 inline-block h-4 w-4"
+                  />
+                  <p class="text-gray-700 max-[479px]:text-sm">
+                    <span className="font-bold"> Medical Tourism and Medical City:</span>  With medication treatment facility , holiday and tourism plan will be arranged to encourage patients and their families mental well being .
+                  </p>
+                </li>
                 <li class="mb-2 flex items-start">
                   <img
                     src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg"
@@ -40,16 +102,6 @@ const Entertainment = () => {
                   />
                   <p class="text-gray-700 max-[479px]:text-sm">
                     <span className="font-bold">Shopping Center:</span>  Unveiling a Shopping Center for Modern Convenience and Stylish Discoveries.
-                  </p>
-                </li>
-                <li class="mb-2 flex items-start">
-                  <img
-                    src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg"
-                    alt=""
-                    class="mr-2 inline-block h-4 w-4"
-                  />
-                  <p class="text-gray-700 max-[479px]:text-sm">
-                    <span className="font-bold">Coffee Shop:</span>  Savor Every Sip at Syldon's Cozy Coffee Haven.
                   </p>
                 </li>
               </ul>

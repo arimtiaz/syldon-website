@@ -1,6 +1,6 @@
 import React from "react";
-import ServicesImg from '../../images/ServicesImg.jpg'
-import { FontAwesomeIcon, } from "@fortawesome/react-fontawesome";
+import ServicesImg from "../../images/ServicesImg.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleDot, faCircleDotDot } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
@@ -14,72 +14,132 @@ const Services = () => {
             {/* <!-- Item --> */}
             <div class="py-20">
               <h2 class="mb-6 text-2xl font-bold md:mb-10 md:text-4xl lg:mb-12">
-              Explore Our Specialized Departments: Tailored Care for Your Health Journey
+                Explore Our Specialized Departments: Tailored Care for Your
+                Health Journey
               </h2>
               <ul class="grid max-w-2xl grid-cols-2 sm:gap-5 lg:max-w-none">
                 <li class="flex flex-col p-5 items-start">
-                <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
                   <i class="fa fa-circle" aria-hidden="true"></i>
                   <p class="mb-4 font-semibold">Urology</p>
                   <p class="text-sm text-[#636262]">
-                  Comprehensive Urological Care: Nurturing Your Urinary Health with Expertise and Compassion
+                    Comprehensive Urological Care: Nurturing Your Urinary Health
+                    with Expertise and Compassion
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
                   <i class="fa fa-circle" aria-hidden="true"></i>
                   <p class="mb-4 font-semibold">Medical</p>
                   <p class="text-sm text-[#636262]">
-                  Holistic Medical Excellence: Fostering Your Wellness Journey with Expertise and Compassion
+                    Holistic Medical Excellence: Fostering Your Wellness Journey
+                    with Expertise and Compassion
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                   <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
                   <p class="mb-4 font-semibold">Neurology</p>
                   <p class="text-sm text-[#636262]">
-                  Navigating Neurological Wellness: Precision Care for Your Brain and Nervous System.
+                    Navigating Neurological Wellness: Precision Care for Your
+                    Brain and Nervous System.
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                   <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
                   <p class="mb-4 font-semibold">Cardiology</p>
                   <p class="text-sm text-[#636262]">
-                  Heart Health Excellence: Elevating Cardiac Care with Expertise and Compassion.
+                    Heart Health Excellence: Elevating Cardiac Care with
+                    Expertise and Compassion.
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                   <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
                   <p class="mb-4 font-semibold">Gynaecology</p>
                   <p class="text-sm text-[#636262]">
-                  Empowering Women's Health: Compassionate Gynecological Care Tailored to Your Well-being.
+                    Empowering Women's Health: Compassionate Gynecological Care
+                    Tailored to Your Well-being.
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                   <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
                   <p class="mb-4 font-semibold">Orthopedics</p>
                   <p class="text-sm text-[#636262]">
-                  Revitalizing Movement, Restoring Strength: Orthopedic Excellence for Your Active Lifestyle.
+                    Revitalizing Movement, Restoring Strength: Orthopedic
+                    Excellence for Your Active Lifestyle.
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                   <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
                   <p class="mb-4 font-semibold">Oncology</p>
                   <p class="text-sm text-[#636262]">
-                  Transformative Oncology Care: Focused on Healing, Empowering Your Cancer Journey.
+                    Transformative Oncology Care: Focused on Healing, Empowering
+                    Your Cancer Journey.
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                   <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
                   <p class="mb-4 font-semibold">Radiology</p>
                   <p class="text-sm text-[#636262]">
-                  Illuminating Insight, Precision Imaging: Radiology Excellence for Informed Healthcare Solutions.
+                    Illuminating Insight, Precision Imaging: Radiology
+                    Excellence for Informed Healthcare Solutions.
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                   <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
                   <p class="mb-4 font-semibold">Psychiatry</p>
                   <p class="text-sm text-[#636262]">
-                  Nurturing Mental Wellness: Compassionate Psychiatry Care for Your Emotional Health.
+                    Nurturing Mental Wellness: Compassionate Psychiatry Care for
+                    Your Emotional Health.
+                  </p>
+                </li>
+                <li class="flex flex-col p-5 items-start">
+                  <FontAwesomeIcon
+                    className="py-4"
+                    icon={faCircleDot}
+                    style={{ color: "#6290df" }}
+                  />
+                  <p class="mb-4 font-semibold">Special New Departments</p>
+                  <p class="text-sm text-[#636262]">
+                    1. Elderly care unit <br></br>
+                    2. Fertility Clinic <br></br>
+                    3.Neurosurgical unit  <br></br>
+                    4. Antenatal care services for pregnancy care <br></br>
                   </p>
                 </li>
               </ul>
