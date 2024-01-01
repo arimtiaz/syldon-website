@@ -26,6 +26,14 @@ const Services = () => {
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
+                <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <p class="mb-4 font-semibold">Medical</p>
+                  <p class="text-sm text-[#636262]">
+                  Holistic Medical Excellence: Fostering Your Wellness Journey with Expertise and Compassion
+                  </p>
+                </li>
+                <li class="flex flex-col p-5 items-start">
                    <FontAwesomeIcon className="py-4" icon={faCircleDot} style={{color: "#6290df",}} />
                   <p class="mb-4 font-semibold">Neurology</p>
                   <p class="text-sm text-[#636262]">

@@ -33,7 +33,9 @@ const Feature = () => {
               <img src={illustration1} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">Environment</h3>
               <p class="text-sm text-gray-500">
-              At Syldon Hospital, we prioritize your well-being in an exceptional care environment, where your health takes center stage
+                At Syldon Hospital, we prioritize your well-being in an
+                exceptional care environment, where your health takes center
+                stage
               </p>
             </div>
             {/*  */}
@@ -41,7 +43,8 @@ const Feature = () => {
               <img src={illustration2} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">Infertility Center</h3>
               <p class="text-sm text-gray-500">
-              Introducing Sylhet's First Infertility Center: Pioneering Reproductive Solutions with Compassion and Expertise.
+                Introducing Sylhet's First Infertility Center: Pioneering
+                Reproductive Solutions with Compassion and Expertise.
               </p>
             </div>
             {/*  */}
@@ -49,15 +52,25 @@ const Feature = () => {
               <img src={illustration3} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">Advanced Departments</h3>
               <p class="text-sm text-gray-500">
-              Elevating Healthcare: Unveiling Our Advanced Departments for Cutting-Edge Medical Solutions and Specialized Care.
+                1. Neonatal Intensive Care Unit (NICU) <br></br>
+                2. Pediatric Intensive Care <br></br>
+                3. Unit (PICU) Coronary Care Unit (CCU) Intensive Care Unit
+                (ICU) <br></br>
+                4. Renal Dialysis Unit <br></br>
               </p>
             </div>
             {/*  */}
             <div class=" grid gap-6 rounded-md border border-solid border-blue-200 bg-gray-50 p-8 md:p-10">
               <img src={illustration4} className="w-24 mx-auto" alt="" />
-              <h3 class="text-xl font-semibold">Institute Trained Staffs</h3>
+              <h3 class="text-xl font-semibold">Specialized Clinics</h3>
               <p class="text-sm text-gray-500">
-              Institute-Trained Expertise: Our Staff Embodies Excellence in Delivering Specialized Care and Compassionate Service.
+                1. Community Clinic: <br></br>
+                • Physical Therapy <br></br>
+                • Speech Therapy <br></br>
+                • Hearing <br></br>
+                2. Problems Asthma Clinic <br></br>
+                3. Cardiac Clinic <br></br>
+                4. Diabetic Clinic <br></br>
               </p>
             </div>
             {/*  */}
@@ -65,7 +78,8 @@ const Feature = () => {
               <img src={illustration5} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">High-tech ICU, NICU, PICU</h3>
               <p class="text-sm text-gray-500">
-              Precision Healthcare at Its Pinnacle: Explore Our High-Tech ICU, NICU, and PICU for Specialized and Compassionate Critical Care.
+                Precision Healthcare at Its Pinnacle: Explore Our High-Tech ICU,
+                NICU, and PICU for Specialized and Compassionate Critical Care.
               </p>
             </div>
             {/*  */}
@@ -73,7 +87,8 @@ const Feature = () => {
               <img src={illustration6} className="w-24 mx-auto" alt="" />
               <h3 class="text-xl font-semibold">Specialized Cathlab</h3>
               <p class="text-sm text-gray-500">
-              Revolutionizing Cardiac Care: Experience Precision in Our Specialized Cath Lab for Advanced Diagnosis and Intervention.
+                Revolutionizing Cardiac Care: Experience Precision in Our
+                Specialized Cath Lab for Advanced Diagnosis and Intervention.
               </p>
             </div>
             {/*  */}
