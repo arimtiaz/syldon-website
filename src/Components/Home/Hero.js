@@ -18,7 +18,7 @@ const Hero = () => {
 		        {/* <!-- Hero Button --> */}
 		        <div class="flex items-center">
                     <a href="" className='mr-5 flex items-center bg-[#276ef1] px-8 py-4 font-semibold text-white md:mr-6 lg:mr-8 rounded-md'><p class="font-bold">Let's Talk</p></a>
-		          <a href="#" class="flex font-bold">
+		          <a href="https://www.facebook.com/reel/987584262345445" class="flex font-bold" target="_blank">
 		            <p class="text-black">Watch Video</p>
 		            <img src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357752f71727ed3edf9213b_Vector (5).svg" alt="" class="ml-2 inline-block" />
 		          </a>
