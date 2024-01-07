@@ -3,7 +3,7 @@ import "./Nav.css";
 import { Link } from "react-router-dom";
 const Nav = () => {
   return (
-    <div className="navbar bg-base-100 mx-auto w-full max-w-6xl">
+    <div className="navbar bg-blue-800 md:bg-base-100 mx-auto w-full max-w-6xl">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -12,7 +12,7 @@ const Nav = () => {
               className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="white"
             >
               <path
                 strokeLinecap="round"
@@ -24,26 +24,37 @@ const Nav = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-cyan-800  text-white"
           >
+            <Link to='/home'>
             <li>
               <a>Home</a>
             </li>
+            </Link>
+            <Link to='/aboutus'>
             <li>
               <a>About Us</a>
             </li>
+            </Link>
+            <Link to='/doctors'>
             <li>
               <a>Doctors</a>
             </li>
+            </Link>
+            <Link to="/board">
             <li>
               <a>Board</a>
             </li>
+            </Link>
+            <Link to="/board">
             <li>
-              <a>Contact</a>
+              <a>contactus</a>
             </li>
+            </Link>
+
           </ul>
         </div>
-        <Link to='/home'><a className="btn btn-ghost normal-case text-xl">Syldon Hospital</a></Link>
+        <Link to='/home'><a className="btn btn-ghost normal-case text-xl md:text-black text-white">Syldon Hospital</a></Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="flex gap-4 font-regular">
