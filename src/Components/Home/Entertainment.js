@@ -1,5 +1,5 @@
 import React from "react";
-import RestaurantImg from '../../images/restaurant.jpg'
+// import RestaurantImg from '../../images/restaurant.jpg'
 
 const Entertainment = () => {
   return (
@@ -8,10 +8,10 @@ const Entertainment = () => {
         <div class="text-left mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
           <div class="flex flex-col gap-8 sm:gap-20 lg:flex-row-reverse lg:items-center">
             <div class="lg:w-1/2">
-              <img
+              {/* <img
                 src={RestaurantImg}
                 alt=""
-              />
+              /> */}
             </div>
             <div class="lg:w-1/2">
               <h2 class="mb-4 max-w-3xl text-3xl font-bold md:text-5xl">
