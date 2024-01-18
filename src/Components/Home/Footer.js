@@ -106,7 +106,7 @@ const Footer = () => {
                     fill="blue"
                   ></path>
                 </svg>
-                <p class="font-inter ml-4 text-white">support@syldon.xyz</p>
+                <p class="font-inter ml-4 text-white">hello@syldon.com</p>
               </div>
             </div>
           </div>
