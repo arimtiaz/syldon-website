@@ -1,4 +1,8 @@
 import React from "react";
+import ysio from '../../images/Ysio.png'
+import acuson from '../../images/Acuson.png'
+import magnetom from '../../images/MAGNETOM.png'
+import attelica from '../../images/Atellica.png'
 
 const Diagonostic = () => {
   return (
@@ -12,46 +16,46 @@ const Diagonostic = () => {
           <div class="text-left mx-auto grid justify-items-stretch gap-4 md:grid-cols-2 lg:gap-10">
             <div className="relative flex h-[300px] items-end">
               <img
-                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a942fd2e6cfa2_Rectangle%201%20(2).svg"
+                src={ysio}
                 alt=""
                 class="inline-block h-full w-full rounded-lg object-cover"
               />
               <div class="absolute bottom-5 left-5 flex flex-col justify-center rounded-lg bg-white px-8 py-4">
-                <p class="text-sm font-medium sm:text-xl">Project Name</p>
-                <p class="text-sm sm:text-base">Microsoft</p>
+                <p class="text-sm font-medium sm:text-xl">Ysio Max</p>
+                <p class="text-sm sm:text-base">Siemens</p>
               </div>
             </div>
             <div className="relative flex h-[300px] items-end">
               <img
-                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a942fd2e6cfa2_Rectangle%201%20(2).svg"
+                src={acuson}
                 alt=""
                 class="inline-block h-full w-full rounded-lg object-cover"
               />
               <div class="absolute bottom-5 left-5 flex flex-col justify-center rounded-lg bg-white px-8 py-4">
-                <p class="text-sm font-medium sm:text-xl">Project Name</p>
-                <p class="text-sm sm:text-base">Paypal</p>
+                <p class="text-sm font-medium sm:text-xl">ACUSON Sequoia</p>
+                <p class="text-sm sm:text-base">Siemens</p>
+              </div>
+            </div>
+            <div className="relative flex h-[300px] items-end">
+            <img
+                src={magnetom}
+                alt=""
+                class="inline-block h-full w-full rounded-lg object-cover"
+              />
+              <div class="absolute bottom-5 left-5 flex flex-col justify-center rounded-lg bg-white px-8 py-4">
+                <p class="text-sm font-medium sm:text-xl">MAGNETOM Amira</p>
+                <p class="text-sm sm:text-base">Siemens</p>
               </div>
             </div>
             <div className="relative flex h-[300px] items-end">
               <img
-                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a942fd2e6cfa2_Rectangle%201%20(2).svg"
+                src={attelica}
                 alt=""
                 class="inline-block h-full w-full rounded-lg object-cover"
               />
               <div class="absolute bottom-5 left-5 flex flex-col justify-center rounded-lg bg-white px-8 py-4">
-                <p class="text-sm font-medium sm:text-xl">Project Name</p>
-                <p class="text-sm sm:text-base">Airbnb</p>
-              </div>
-            </div>
-            <div className="relative flex h-[300px] items-end">
-              <img
-                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a942fd2e6cfa2_Rectangle%201%20(2).svg"
-                alt=""
-                class="inline-block h-full w-full rounded-lg object-cover"
-              />
-              <div class="absolute bottom-5 left-5 flex flex-col justify-center rounded-lg bg-white px-8 py-4">
-                <p class="text-sm font-medium sm:text-xl">Project Name</p>
-                <p class="text-sm sm:text-base">Meta</p>
+                <p class="text-sm font-medium sm:text-xl">Atellica UAS 60 Analyzer</p>
+                <p class="text-sm sm:text-base">Siemens</p>
               </div>
             </div>
           </div>

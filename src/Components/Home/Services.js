@@ -2,6 +2,14 @@ import React from "react";
 import ServicesImg from "../../images/ServicesImg.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleDot, faCircleDotDot } from "@fortawesome/free-solid-svg-icons";
+import urology from "../../images/Urology.png";
+import medical from "../../images/Medical.png";
+import neurology from "../../images/Neurology.png";
+import cardio from "../../images/Cardio.png";
+import gynae from "../../images/Gynae.png";
+import ortho from "../../images/Ortho.png";
+import onco from "../../images/Oncology.png";
+import radio from "../../images/radio.png";
 
 const Services = () => {
   return (
@@ -19,11 +27,12 @@ const Services = () => {
               </h2>
               <ul class="grid max-w-2xl grid-cols-2 sm:gap-5 lg:max-w-none">
                 <li class="flex flex-col p-5 items-start">
-                  <FontAwesomeIcon
+                  {/* <FontAwesomeIcon
                     className="py-4"
                     icon={faCircleDot}
                     style={{ color: "#6290df" }}
-                  />
+                  /> */}
+                  <img src={urology} className="w-2/4" alt="" />
                   <i class="fa fa-circle" aria-hidden="true"></i>
                   <p class="mb-4 font-semibold">Urology</p>
                   <p class="text-sm text-[#636262]">
@@ -32,11 +41,12 @@ const Services = () => {
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                  <FontAwesomeIcon
+                  {/* <FontAwesomeIcon
                     className="py-4"
                     icon={faCircleDot}
                     style={{ color: "#6290df" }}
-                  />
+                  /> */}
+                  <img src={medical} className="w-2/4" alt="" />
                   <i class="fa fa-circle" aria-hidden="true"></i>
                   <p class="mb-4 font-semibold">Medical</p>
                   <p class="text-sm text-[#636262]">
@@ -45,23 +55,26 @@ const Services = () => {
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                  <FontAwesomeIcon
+                  {/* <FontAwesomeIcon
                     className="py-4"
                     icon={faCircleDot}
                     style={{ color: "#6290df" }}
                   />
-                  <p class="mb-4 font-semibold">Neurology</p>
+                   */}
+                   <img src={neurology} className="w-2/4" alt="" />
+                  <p class="mb-4 font-semibold">Psychiatry</p>
                   <p class="text-sm text-[#636262]">
                     Navigating Neurological Wellness: Precision Care for Your
                     Brain and Nervous System.
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                  <FontAwesomeIcon
+                  {/* <FontAwesomeIcon
                     className="py-4"
                     icon={faCircleDot}
                     style={{ color: "#6290df" }}
-                  />
+                  /> */}
+                   <img src={cardio} className="w-2/4" alt="" />
                   <p class="mb-4 font-semibold">Cardiology</p>
                   <p class="text-sm text-[#636262]">
                     Heart Health Excellence: Elevating Cardiac Care with
@@ -69,11 +82,12 @@ const Services = () => {
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                  <FontAwesomeIcon
+                  {/* <FontAwesomeIcon
                     className="py-4"
                     icon={faCircleDot}
                     style={{ color: "#6290df" }}
-                  />
+                  /> */}
+                   <img src={gynae} className="w-2/4" alt="" />
                   <p class="mb-4 font-semibold">Gynaecology</p>
                   <p class="text-sm text-[#636262]">
                     Empowering Women's Health: Compassionate Gynecological Care
@@ -81,11 +95,12 @@ const Services = () => {
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                  <FontAwesomeIcon
+                  {/* <FontAwesomeIcon
                     className="py-4"
                     icon={faCircleDot}
                     style={{ color: "#6290df" }}
-                  />
+                  /> */}
+                  <img src={ortho} className="w-2/4" alt="" />
                   <p class="mb-4 font-semibold">Orthopedics</p>
                   <p class="text-sm text-[#636262]">
                     Revitalizing Movement, Restoring Strength: Orthopedic
@@ -93,11 +108,12 @@ const Services = () => {
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                  <FontAwesomeIcon
+                  {/* <FontAwesomeIcon
                     className="py-4"
                     icon={faCircleDot}
                     style={{ color: "#6290df" }}
-                  />
+                  /> */}
+                  <img src={onco} className="w-2/4" alt="" />
                   <p class="mb-4 font-semibold">Oncology</p>
                   <p class="text-sm text-[#636262]">
                     Transformative Oncology Care: Focused on Healing, Empowering
@@ -105,27 +121,16 @@ const Services = () => {
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">
-                  <FontAwesomeIcon
+                  {/* <FontAwesomeIcon
                     className="py-4"
                     icon={faCircleDot}
                     style={{ color: "#6290df" }}
-                  />
+                  /> */}
+                  <img src={radio} className="w-2/4" alt="" />
                   <p class="mb-4 font-semibold">Radiology</p>
                   <p class="text-sm text-[#636262]">
                     Illuminating Insight, Precision Imaging: Radiology
                     Excellence for Informed Healthcare Solutions.
-                  </p>
-                </li>
-                <li class="flex flex-col p-5 items-start">
-                  <FontAwesomeIcon
-                    className="py-4"
-                    icon={faCircleDot}
-                    style={{ color: "#6290df" }}
-                  />
-                  <p class="mb-4 font-semibold">Psychiatry</p>
-                  <p class="text-sm text-[#636262]">
-                    Nurturing Mental Wellness: Compassionate Psychiatry Care for
-                    Your Emotional Health.
                   </p>
                 </li>
                 <li class="flex flex-col p-5 items-start">

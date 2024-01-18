@@ -2,11 +2,11 @@ import { faKitMedical } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import illustration1 from "../../images/illustrations1.png";
-import illustration2 from "../../images/illustrations2.png";
+import illustration2 from "../../images/infertility.png";
 import illustration3 from "../../images/illustrations3.png";
 import illustration4 from "../../images/illustrations4.png";
 import illustration5 from "../../images/illustrations5.png";
-import illustration6 from "../../images/illustrations6.png";
+import illustration6 from "../../images/heart.png";
 
 const Feature = () => {
   return (

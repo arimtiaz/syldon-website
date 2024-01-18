@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import { Link } from "react-router-dom";
+import logo from '../../images/Syldon_Logo.png'
 const Nav = () => {
   return (
     <div className="navbar bg-blue-800 md:bg-base-100 mx-auto w-full max-w-6xl">
