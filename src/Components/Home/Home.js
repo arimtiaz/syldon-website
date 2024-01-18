@@ -28,7 +28,7 @@ const Home = () => {
            <Services></Services>
            <Diagonostic></Diagonostic>
            <Pharmacy></Pharmacy>
-           <Entertainment></Entertainment>
+           {/* <Entertainment></Entertainment> */}
            <Construction></Construction>
            <div className='bg-blue-50'>
            <FAQ></FAQ>
