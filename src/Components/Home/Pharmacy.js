@@ -1,4 +1,5 @@
 import React from "react";
+import pharmacy from '../../images/pharmacy.jpg'
 
 const Pharmacy = () => {
   return (
@@ -59,7 +60,7 @@ const Pharmacy = () => {
             </div>
 
             <div class="lg:w-1/2">
-             
+              <img src={pharmacy} alt="" srcset="" />
             </div>
           </div>
         </div>
