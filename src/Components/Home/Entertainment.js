@@ -1,4 +1,5 @@
 import React from "react";
+import RestaurantImg from '../../images/restaurant.jpg'
 
 const Entertainment = () => {
   return (
@@ -8,7 +9,7 @@ const Entertainment = () => {
           <div class="flex flex-col gap-8 sm:gap-20 lg:flex-row-reverse lg:items-center">
             <div class="lg:w-1/2">
               <img
-                src=""
+                src={RestaurantImg}
                 alt=""
               />
             </div>
