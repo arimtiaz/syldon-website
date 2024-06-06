@@ -1,5 +1,5 @@
 import React from "react";
-import restaurant from '../../images/restaurant.jpg'
+import restaurant from '../../images/restaurant.jpeg'
 
 const Entertainment = () => {
   return (

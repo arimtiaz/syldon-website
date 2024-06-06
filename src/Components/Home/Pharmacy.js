@@ -1,5 +1,5 @@
 import React from "react";
-import pharmacy from '../../images/pharmacy.jpg'
+import pharmacy from '../../images/pharmacy.jpeg'
 
 const Pharmacy = () => {
   return (
